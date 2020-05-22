@@ -17,8 +17,17 @@
 
 /*float applicato a tutte le classi che iniziano per col- */
 
+.container [.class*="col-"] {
+  /* float: left; */
+  height: 150px;
+  background-color: red;
+  border: 1px solid black;
 
-@media all and (max-width 768px) {
+}
+
+
+
+@media all and (max-width: 768px) {
 
   /* colonne */
   .col-xs-1 {
@@ -112,7 +121,7 @@
 
 }
 
-@media all and (min-width 769px) and (max-width 992px) {
+@media all and (min-width: 769px) and (max-width: 992px) {
 
   /* colonne */
   .col-md-1 {
@@ -206,7 +215,7 @@
 
 }
 
-@media all and (min-width 993px) {
+@media all and (min-width: 993px) {
 
   /* colonne */
   .col-lg-1 {
