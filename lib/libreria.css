@@ -17,7 +17,7 @@
 
 /*float applicato a tutte le classi che iniziano per col- */
 
-.container [.class*="col-"] {
+ [class*="col-"] {
   /* float: left; */
   height: 150px;
   background-color: red;
