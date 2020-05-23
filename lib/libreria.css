@@ -17,13 +17,13 @@
 
 /*float applicato a tutte le classi che iniziano per col- */
 
- [class*="col-"] {
+ /* [class*="col-"] { */
   /* float: left; */
-  height: 150px;
+  /* height: 150px;
   background-color: red;
   border: 1px solid black;
 
-}
+} */
 
 
 
