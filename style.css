@@ -9,14 +9,6 @@
   margin-bottom: 40px;
 }
 
-/* .sezione2title {
-  margin: 40px auto;
-} */
-
-/* .sezione3title  {
-  margin: 40px auto;
-} */
-
 h1{
   margin: 40px auto;
 
@@ -25,6 +17,39 @@ h1{
 .col-lg-12 .first, .col-lg-12 .second, .col-lg-12 .third {
   margin-bottom: 40px;
 }
+
+#lezioni .row img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cerchio {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+img {
+  height: 200px;
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .lightgrey {
+    background-color: lightgrey;
+  }
+
+  .accaerreno {
+    display: none;
+  }
+
+
+}
+
+
+
+
 
 
 /* .row {
@@ -41,12 +66,6 @@ h1{
   float: left;
 } */
 
-#lezioni .row img {
-  /* per centrare orizzontalmente */
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
 
 /* #lezioni {
   text-align: center;
@@ -76,11 +95,7 @@ h1{
   margin-top: 80px;
 } */
 
-/* #why .row img {
-  background-color: #428bca;
-  border-radius: 50%;
-  padding: 30px
-} */
+
 
 /* COMMON */
 /* .row::after {
@@ -93,9 +108,7 @@ h1{
   background-color: #f9f9f9;
 } */
 
-img {
-  height: 200px;
-}
+
 
 /* .clear {
   clear: both;
