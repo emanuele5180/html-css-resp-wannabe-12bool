@@ -52,6 +52,19 @@ img {
 }
 
 
+@media all and (max-width: 768px){
+
+  img{
+    height: 100px;
+  }
+
+  .cerchio {
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+}
+
 
 
 
